@@ -16,6 +16,7 @@ Welcome to the **AI-Powered Company & Industry Research Assistant**! This projec
 ```
 ├── app.py                  # Streamlit app entry point
 ├── requirements.txt        # Python dependencies
+├── Company_Research_Report.pdf # Example output report
 ├── crew/
 │   └── crew_manager.py     # Orchestrates agents and tasks
 ├── agents/
@@ -39,19 +40,25 @@ Welcome to the **AI-Powered Company & Industry Research Assistant**! This projec
    cd marketresearch
    ```
 
-2. **Install dependencies**
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up your environment variables**
-   - Create a `.env` file in the root directory with your [OpenRouter API key](https://openrouter.ai/):
+4. **Set up your environment variables**
+   - Create a `.env` file in the root directory with your [OpenRouter API key](https://openrouter.ai/) and [Serper API key](https://serper.dev/):
      ```env
      OPENROUTER_API_KEY=your_openrouter_api_key_here
      SERPER_API_KEY=your_serper_api_key_here
      ```
 
-4. **Run the app**
+5. **Run the app**
    ```bash
    streamlit run app.py
    ```
@@ -64,7 +71,12 @@ Welcome to the **AI-Powered Company & Industry Research Assistant**! This projec
   - **Industry Research Specialist**: Analyzes the market, trends, and competitors.
   - **AI Use Case Strategist**: Suggests innovative AI/ML use cases.
   - **Resource Curator**: Finds the best datasets, models, and tools for each use case.
-- Results are presented in an interactive, expandable format with clickable resource.
+- Results are presented in an interactive, expandable format with clickable resources.
+
+---
+
+## 📄 Example Output
+- See `Company_Research_Report.pdf` for a sample generated report.
 
 ---
 
