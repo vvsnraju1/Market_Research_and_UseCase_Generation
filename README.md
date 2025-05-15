@@ -16,7 +16,6 @@ Welcome to the **AI-Powered Company & Industry Research Assistant**! This projec
 ```
 ├── app.py                  # Streamlit app entry point
 ├── requirements.txt        # Python dependencies
-├── Company_Research_Report.pdf # Example output report
 ├── crew/
 │   └── crew_manager.py     # Orchestrates agents and tasks
 ├── agents/
@@ -72,11 +71,6 @@ Welcome to the **AI-Powered Company & Industry Research Assistant**! This projec
   - **AI Use Case Strategist**: Suggests innovative AI/ML use cases.
   - **Resource Curator**: Finds the best datasets, models, and tools for each use case.
 - Results are presented in an interactive, expandable format with clickable resources.
-
----
-
-## 📄 Example Output
-- See `Company_Research_Report.pdf` for a sample generated report.
 
 ---
 
